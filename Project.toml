@@ -1,6 +1,6 @@
 name = "GDAL_jll"
 uuid = "a7073274-a066-55f0-b90d-d619367d196c"
-version = "3.0.4+4"
+version = "3.0.4+5"
 
 [deps]
 LibSSH2_jll = "29816b5a-b9ab-546f-933c-edad1886dfa8"
@@ -8,7 +8,6 @@ nghttp2_jll = "8e850ede-7688-5339-a07c-302acd2aaf8d"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-libwebp_jll = "c5f90fcd-3b7e-5836-afba-fc50a0988cb2"
 PROJ_jll = "58948b4f-47e0-5654-a9ad-f609743f8632"
 OpenJpeg_jll = "643b3616-a352-519d-856d-80112ee9badc"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -23,3 +22,4 @@ Zstd_jll = "3161d3a3-bdf6-5164-811a-617609db77b4"
 [compat]
 JLLWrappers = "1.1.0"
 julia = "1.0"
+PROJ_jll = "=7.2.0"
