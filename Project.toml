@@ -1,6 +1,6 @@
 name = "GDAL_jll"
 uuid = "a7073274-a066-55f0-b90d-d619367d196c"
-version = "3.0.4+5"
+version = "3.0.4+6"
 
 [deps]
 LibSSH2_jll = "29816b5a-b9ab-546f-933c-edad1886dfa8"
