@@ -27,7 +27,7 @@ JLLWrappers.@declare_executable_product(gdalsrsinfo_path)
 JLLWrappers.@declare_executable_product(gdaltindex_path)
 JLLWrappers.@declare_executable_product(gdaltransform_path)
 JLLWrappers.@declare_executable_product(gdalwarp_path)
-JLLWrappers.@declare_library_product(libgdal, "@rpath/libgdal.26.dylib")
+JLLWrappers.@declare_library_product(libgdal, "@rpath/libgdal.28.dylib")
 JLLWrappers.@declare_executable_product(nearblack_path)
 JLLWrappers.@declare_executable_product(ogr2ogr_path)
 JLLWrappers.@declare_executable_product(ogrinfo_path)
@@ -107,7 +107,7 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libgdal,
-        "lib/libgdal.26.dylib",
+        "lib/libgdal.28.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
