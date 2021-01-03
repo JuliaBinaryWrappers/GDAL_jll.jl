@@ -9,6 +9,8 @@ using LibCURL_jll
 using OpenJpeg_jll
 using Expat_jll
 using Zstd_jll
+using Libtiff_jll
+using libgeotiff_jll
 using LibSSH2_jll
 using MbedTLS_jll
 using nghttp2_jll
@@ -34,7 +36,7 @@ JLLWrappers.@declare_executable_product(ogrinfo_path)
 JLLWrappers.@declare_executable_product(ogrlineref_path)
 JLLWrappers.@declare_executable_product(ogrtindex_path)
 function __init__()
-    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, LibCURL_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, LibSSH2_jll, MbedTLS_jll, nghttp2_jll)
+    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, LibCURL_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibSSH2_jll, MbedTLS_jll, nghttp2_jll)
     JLLWrappers.@init_executable_product(
         gdal_contour_path,
         "bin/gdal_contour",

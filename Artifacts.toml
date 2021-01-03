@@ -1,236 +1,236 @@
 [[GDAL]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d5e2bdeec497f0f8cd2a5242b14a1fae03c13fe6"
+git-tree-sha1 = "8884ef7c42299c74c1e0a04e222e4e11b94cea56"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "dd4ef3f184357d3b0018833cbeb7eb1acc2a769f127a408e2a21f597ee02539a"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "290bdc58a1cea9d810879df7d316cd169d754b4f0f7f44e895d9faa0dd33c03e"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[GDAL]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "35cd4b0024b24f9b4a4cc4e6688b7044b373a3aa"
+git-tree-sha1 = "b98f1f104bae88320ccad8c214eb80bf277b4760"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "f9934ea92806af9512d19a15baae94d4433e0f2854ffa0d0841a3906afd0e61c"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "45da256210afb09782cbf3a851a017b5e7f2da6cab053fca7812258a0c7052b8"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[GDAL]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "928a2f275f2858c4bcc984e29a3a683efaf0505b"
+git-tree-sha1 = "33f71a2ec97a602e41ec4368bb1093679a2ae9bf"
 libc = "musl"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "f297eb9fe9bb9df11fd4b4a970bee1090c9c7f77c7d2a1ab97d0ddc9362d234b"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "4d490383e8580e94bb335bb5612c70498a8067a3723ca47cbd7f6355553ae8b4"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.aarch64-linux-musl-cxx03.tar.gz"
 [[GDAL]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0af97cf5787f264cc9cdb8576a386be3edf7c7c2"
+git-tree-sha1 = "d1a78266008496a4bf279f35344559d0bb659499"
 libc = "musl"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "90f457e4afece3184c79649db0b8d2212f3528b32179f4b011b5a26ba1ca759d"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "993de9cc86fe600ddccc28c41f343e7021457cfa1a1519adf75c7c1215ddff99"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.aarch64-linux-musl-cxx11.tar.gz"
 [[GDAL]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f619e7e2144b636218e2d14f5c352c59413c213c"
+git-tree-sha1 = "8bff6d7f8bc4ea9bf27b634c9c9e9926266a756e"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "34ca84ad45c680b627ca14f10b8e1c943cac910d4d8290c2e11aaa2f198091da"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "2319dd47c4a27164dd83f5e1630b2255774b14e2bc5aedf2d2647a44e32d2f81"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[GDAL]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "71a40ba21f211d8d67267dd20747b742f3e173b9"
+git-tree-sha1 = "b0ae4bd5dd1e0e93b27ffa4d7498cc7fcba16b48"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "8e59eb8f9bd2861d770e2db778876555c261d31988af356238577c61cd3aea2b"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "6963007f3be0898f05adfc3bc261dee1dc65c903d4f491490af69dd1b7bb8b14"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[GDAL]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "416fe41b6746da62a0c7042334e9ae1e7e1f0df9"
+git-tree-sha1 = "76ffcb9d09a79fb6030e46b22a92c2f09b59863c"
 libc = "musl"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "effbf9cbc51dee3a8eb18d53b59649f49e04d3581480ae3269a4806fb3eee77f"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "315d799ce226adfb3379b8506ef7f771be94b21d96ebb59a6ac56731d06603d7"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[GDAL]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ff2fdf52dd2ea020cf85e01e2b0e4a5c1a62ad41"
+git-tree-sha1 = "1ea820d183744f5cc9dd274e9d83c8d4c1056d59"
 libc = "musl"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "4fa62afe3751e45f650f0e221c0f483ee6322256b895170ea5d53afaf1567c1e"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "ff9ba6ef0a3570afd8b042458e56abc0c4a113ab3a17dd95b2110b1bc65cc013"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[GDAL]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "b1f3be8a7c124740672c2d92e26d8571859ff6d4"
+git-tree-sha1 = "579947a1b33e1a344dedfec16d62bcb42514170e"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "1cdc839b563cecc24204001a1fc7d9255359833131b68756cc8d93694b9c67d5"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "b0a8cf1c36b0531b556199c7a3dd59da6b382b24972c2d088f6002fff5acad0c"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.i686-linux-gnu-cxx03.tar.gz"
 [[GDAL]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3422c2f8c42df4fceecd3389677f94ad7c67c1b1"
+git-tree-sha1 = "bc8b750d70497623db5bca293e38a1a231c658ce"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "9ca2e494791405b03ba1d52891017d6ebe63879fbea07887d0102c0602f4effb"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "24bddec87d3db75dccb56f8090e0c17ef2c14b8a3ba2ec45167ec51656f567a5"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.i686-linux-gnu-cxx11.tar.gz"
 [[GDAL]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3ea8f871c3a543868e32488ca049fc97d985793d"
+git-tree-sha1 = "f8e4d5ff07242c6f40385537177411c52d3accdf"
 libc = "musl"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "561166f24fbeddeb7338f228604708084935623bafbfd2f3eec3f16f6fd948e4"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "42985664c154450e29c8ffe53e2827f82f84fcd219dc42b79a0e180e4b1a2b73"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.i686-linux-musl-cxx03.tar.gz"
 [[GDAL]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "cc1cdbf89cbf556b04d4d280c921106db4184c88"
+git-tree-sha1 = "02f03fec607116c8d4509fcc984a7e4e5a3e86d4"
 libc = "musl"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "3afbcd41be02235b0e5307491fd606c7c7d9375c1a9569dfac24f875286515f1"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "3c5a8a80ee710d5da466bcc6610cf8e775f79f53763ce4127c039bf169859355"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.i686-linux-musl-cxx11.tar.gz"
 [[GDAL]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "e3e0a3e63e5c0ebb6be7fe96361a6c1fef6c89f4"
+git-tree-sha1 = "889816530711ccec38facb3868505b51a9861af2"
 os = "windows"
 
     [[GDAL.download]]
-    sha256 = "f26388f19c6b06d8f3b4f65601d2186ecaab339fd4dc914fb2c0306a394a133e"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "690ed51eab49145f02635eba1b9801a94343f51417802af3cbf7053454d0e383"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.i686-w64-mingw32-cxx03.tar.gz"
 [[GDAL]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a9bac818a0304cf56fa1bccd9c12359b7cdbb2e7"
+git-tree-sha1 = "5a53b2399e260aabb1e05de7166246855cef1e93"
 os = "windows"
 
     [[GDAL.download]]
-    sha256 = "31bd8abc0ae925d549ff09cb3a39713958385ea4f4474d0c9de8d0a7a248e6b8"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "37e8660d744e23b51409faac901e05f70c5be1c45d4d784a36336e0f47199500"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.i686-w64-mingw32-cxx11.tar.gz"
 [[GDAL]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d28b525b7812310513c420b0f7bdf61c78c7e9e9"
+git-tree-sha1 = "99fa2109dc1855a3f6b5b81d75762e86169fc9bd"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "29c4c075b7238d58c551823fcd4a409c5b6c7f9d7013e14f1a87a28708ffd8a3"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "9fa7effa990b58f0c1f7e1931b2bf7a4cab3bb2fa8fa7b8713931954da5073fb"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[GDAL]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7a0a7fe1596f2c723dd3ff7a5898a6f37582d57e"
+git-tree-sha1 = "295abff59bdac89b520d56b55111dd7620f0f8b0"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "8e7d19df68401e35bddcc701d7de011688970a14a8746dc97a5cbd49e18a263b"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "8f819e267b9c490f1962529c6ed35c183b4bd006f81ea2e0979cc42b7486f782"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[GDAL]]
 arch = "x86_64"
-git-tree-sha1 = "2f172345ea59c3c166f581085456dca3819bd562"
+git-tree-sha1 = "2c3cdffc520e54030c005f3ea5b7b465a5a5205a"
 os = "macos"
 
     [[GDAL.download]]
-    sha256 = "f63bf33eff1adcbb147c13d29432838170376ebc1c8d88ede53ed709ae67b2e0"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "df4fb9d6a2ca474599652ad93144085e9d00130e4c66b3f8e4b14f019950343b"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.x86_64-apple-darwin.tar.gz"
 [[GDAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "5a66d8d15abbd81047e5243b24eb850a2f5fe502"
+git-tree-sha1 = "4bc20e5be84ac86f0ef51a1aa3cd42b75a86620c"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "4e17e7917b800a98980ce1cf9b9d89af2874ffac5a6e016b7f143f6b37a16a29"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "26f71601d61d1648937bfb2668b5b0f1266149772d9ba050bb3721df47e50f97"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[GDAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bbeb430893cafc08e0447a2fab0ac192b2004802"
+git-tree-sha1 = "c0c29a465f9eb1ef6a03ded82c0d342ba7cd1291"
 libc = "glibc"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "cd691d9ea2a3635a973840544a56da217c7d2bfc37314d3a77879465f19e751b"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "193358dc7039189a8abb7564b8fa0f3a9a96748a5428b81bc3ebb09a201d7dfa"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[GDAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d0065df3beeaff376ee33dfaf93845664691703b"
+git-tree-sha1 = "00dc311b47cba7775a217a8d4691c9147ab5da73"
 libc = "musl"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "41ac39a1d1153a5af97c1ed14b27d38aaf9bb40313f0a11bfa9ceaac65e7b813"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "df778398d824484a41202037efda12a96f467995a29aef8279c00d4fea861dde"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.x86_64-linux-musl-cxx03.tar.gz"
 [[GDAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "14861e444c8902e74a68e0484b88101ef699edff"
+git-tree-sha1 = "c9b11133c144c33561ce870d9d0aa78cb8d0b78a"
 libc = "musl"
 os = "linux"
 
     [[GDAL.download]]
-    sha256 = "45cdd39e882c3cf2a9ffb1b9210c6e8feb7989082a2b2b40535d2b2f63962509"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "dd0efe53628f1e5a65632136495e685997bcfd691ce017c5259c810bbe9e230c"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.x86_64-linux-musl-cxx11.tar.gz"
 [[GDAL]]
 arch = "x86_64"
-git-tree-sha1 = "2f55abd94a7fdcfddb56da714e98979b29095ad0"
+git-tree-sha1 = "b14d5aac71bd1ec78c4ae48097784906f60b26a4"
 os = "freebsd"
 
     [[GDAL.download]]
-    sha256 = "92db454fea1987d04573890183facc86b7657bdb81e4b3a58faa222306af9e3e"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "3a3100f6d8928a77ee7a1be34e5526cd68131bf3d5b5567eb55553cf22f28643"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.x86_64-unknown-freebsd.tar.gz"
 [[GDAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "9f69cd2025602835daf9bb1f6e0c2998b7fed645"
+git-tree-sha1 = "c2debac05d84fd118cfca3cfde01847cbca6e502"
 os = "windows"
 
     [[GDAL.download]]
-    sha256 = "2dfbb6b10ec3b101d55889c2a9abc159c8fac978044794f40ac43de987bb259c"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "c08df6b8b19d56913e8379b570292c113a7db46b85a6adc83a6b5e460ab71512"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[GDAL]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b04351ca9737fcd5f06db3530d4286d2ce0be148"
+git-tree-sha1 = "b2b3988291b4764b852df2dacaf5959c164a9b1d"
 os = "windows"
 
     [[GDAL.download]]
-    sha256 = "686dcf4774f4fc9aff095e28608fd6123e495be19a9d81d78f374821a5c04228"
-    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+1/GDAL.v3.2.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "caf975fba29f5b6dab02ccc45a4840db07ac953500332db2f1d0b9f9b97ae6e5"
+    url = "https://github.com/JuliaBinaryWrappers/GDAL_jll.jl/releases/download/GDAL-v3.2.0+2/GDAL.v3.2.0.x86_64-w64-mingw32-cxx11.tar.gz"
