@@ -11,10 +11,8 @@ using Zstd_jll
 using Libtiff_jll
 using libgeotiff_jll
 using LibCURL_jll
-using LibSSH2_jll
-using MbedTLS_jll
-using nghttp2_jll
 JLLWrappers.@generate_wrapper_header("GDAL")
+JLLWrappers.@declare_library_product(libgdal, "libgdal.so.30")
 JLLWrappers.@declare_executable_product(gdal_contour_path)
 JLLWrappers.@declare_executable_product(gdal_grid_path)
 JLLWrappers.@declare_executable_product(gdal_rasterize_path)
@@ -29,14 +27,19 @@ JLLWrappers.@declare_executable_product(gdalsrsinfo_path)
 JLLWrappers.@declare_executable_product(gdaltindex_path)
 JLLWrappers.@declare_executable_product(gdaltransform_path)
 JLLWrappers.@declare_executable_product(gdalwarp_path)
-JLLWrappers.@declare_library_product(libgdal, "libgdal.so.28")
 JLLWrappers.@declare_executable_product(nearblack_path)
 JLLWrappers.@declare_executable_product(ogr2ogr_path)
 JLLWrappers.@declare_executable_product(ogrinfo_path)
 JLLWrappers.@declare_executable_product(ogrlineref_path)
 JLLWrappers.@declare_executable_product(ogrtindex_path)
 function __init__()
-    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll, LibSSH2_jll, MbedTLS_jll, nghttp2_jll)
+    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll)
+    JLLWrappers.@init_library_product(
+        libgdal,
+        "lib/libgdal.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         gdal_contour_path,
         "bin/gdal_contour",
@@ -105,12 +108,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         gdalwarp_path,
         "bin/gdalwarp",
-    )
-
-    JLLWrappers.@init_library_product(
-        libgdal,
-        "lib/libgdal.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
