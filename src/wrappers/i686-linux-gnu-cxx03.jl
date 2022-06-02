@@ -12,7 +12,7 @@ using Libtiff_jll
 using libgeotiff_jll
 using LibCURL_jll
 JLLWrappers.@generate_wrapper_header("GDAL")
-JLLWrappers.@declare_library_product(libgdal, "libgdal.so.30")
+JLLWrappers.@declare_library_product(libgdal, "libgdal.so.31")
 JLLWrappers.@declare_executable_product(gdal_contour_path)
 JLLWrappers.@declare_executable_product(gdal_grid_path)
 JLLWrappers.@declare_executable_product(gdal_rasterize_path)
