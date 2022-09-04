@@ -1,6 +1,6 @@
 name = "GDAL_jll"
 uuid = "a7073274-a066-55f0-b90d-d619367d196c"
-version = "300.500.100+0"
+version = "300.500.101+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
