@@ -11,6 +11,8 @@ using Zstd_jll
 using Libtiff_jll
 using libgeotiff_jll
 using LibCURL_jll
+using NetCDF_jll
+using HDF5_jll
 JLLWrappers.@generate_wrapper_header("GDAL")
 JLLWrappers.@declare_library_product(libgdal, "libgdal-31.dll")
 JLLWrappers.@declare_executable_product(gdal_contour_path)
@@ -33,7 +35,7 @@ JLLWrappers.@declare_executable_product(ogrinfo_path)
 JLLWrappers.@declare_executable_product(ogrlineref_path)
 JLLWrappers.@declare_executable_product(ogrtindex_path)
 function __init__()
-    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll)
+    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll, NetCDF_jll, HDF5_jll)
     JLLWrappers.@init_library_product(
         libgdal,
         "bin\\libgdal-31.dll",
