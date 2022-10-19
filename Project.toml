@@ -1,11 +1,12 @@
 name = "GDAL_jll"
 uuid = "a7073274-a066-55f0-b90d-d619367d196c"
-version = "300.500.102+0"
+version = "300.500.103+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 libgeotiff_jll = "06c338fa-64ff-565b-ac2f-249532af990e"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
+LibPQ_jll = "08be9ffa-1c94-5ee5-a977-46a84ec9b350"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Libtiff_jll = "89763e89-9b03-5906-acba-b20f662cd828"
 HDF5_jll = "0234f1f7-429e-5d53-9886-15a909be8d59"

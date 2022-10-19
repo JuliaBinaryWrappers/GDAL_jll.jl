@@ -5,6 +5,7 @@ using GEOS_jll
 using PROJ_jll
 using Zlib_jll
 using SQLite_jll
+using LibPQ_jll
 using OpenJpeg_jll
 using Expat_jll
 using Zstd_jll
@@ -35,7 +36,7 @@ JLLWrappers.@declare_executable_product(ogrinfo_path)
 JLLWrappers.@declare_executable_product(ogrlineref_path)
 JLLWrappers.@declare_executable_product(ogrtindex_path)
 function __init__()
-    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll, NetCDF_jll, HDF5_jll)
+    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, LibPQ_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll, NetCDF_jll, HDF5_jll)
     JLLWrappers.@init_library_product(
         libgdal,
         "bin\\libgdal-31.dll",
