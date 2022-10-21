@@ -39,7 +39,7 @@ function __init__()
     JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, LibPQ_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll, NetCDF_jll, HDF5_jll)
     JLLWrappers.@init_library_product(
         libgdal,
-        "lib/libgdal.31.0.1.dylib",
+        "lib/libgdal.31.0.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
