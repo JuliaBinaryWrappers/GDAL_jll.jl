@@ -14,8 +14,9 @@ using libgeotiff_jll
 using LibCURL_jll
 using NetCDF_jll
 using HDF5_jll
+using Arrow_jll
 JLLWrappers.@generate_wrapper_header("GDAL")
-JLLWrappers.@declare_library_product(libgdal, "@rpath/libgdal.31.dylib")
+JLLWrappers.@declare_library_product(libgdal, "@rpath/libgdal.32.dylib")
 JLLWrappers.@declare_executable_product(gdal_contour_path)
 JLLWrappers.@declare_executable_product(gdal_grid_path)
 JLLWrappers.@declare_executable_product(gdal_rasterize_path)
@@ -36,10 +37,10 @@ JLLWrappers.@declare_executable_product(ogrinfo_path)
 JLLWrappers.@declare_executable_product(ogrlineref_path)
 JLLWrappers.@declare_executable_product(ogrtindex_path)
 function __init__()
-    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, LibPQ_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll, NetCDF_jll, HDF5_jll)
+    JLLWrappers.@generate_init_header(GEOS_jll, PROJ_jll, Zlib_jll, SQLite_jll, LibPQ_jll, OpenJpeg_jll, Expat_jll, Zstd_jll, Libtiff_jll, libgeotiff_jll, LibCURL_jll, NetCDF_jll, HDF5_jll, Arrow_jll)
     JLLWrappers.@init_library_product(
         libgdal,
-        "lib/libgdal.31.0.2.dylib",
+        "lib/libgdal.32.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
