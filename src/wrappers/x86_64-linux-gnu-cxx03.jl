@@ -16,7 +16,7 @@ using NetCDF_jll
 using HDF5_jll
 using Arrow_jll
 JLLWrappers.@generate_wrapper_header("GDAL")
-JLLWrappers.@declare_library_product(libgdal, "libgdal.so.32")
+JLLWrappers.@declare_library_product(libgdal, "libgdal.so.33")
 JLLWrappers.@declare_executable_product(gdal_contour_path)
 JLLWrappers.@declare_executable_product(gdal_grid_path)
 JLLWrappers.@declare_executable_product(gdal_rasterize_path)
