@@ -14,7 +14,7 @@ using libgeotiff_jll
 using LibCURL_jll
 using Arrow_jll
 JLLWrappers.@generate_wrapper_header("GDAL")
-JLLWrappers.@declare_library_product(libgdal, "libgdal.so.33")
+JLLWrappers.@declare_library_product(libgdal, "libgdal.so.34")
 JLLWrappers.@declare_executable_product(gdal_contour_path)
 JLLWrappers.@declare_executable_product(gdal_grid_path)
 JLLWrappers.@declare_executable_product(gdal_rasterize_path)
