@@ -23,7 +23,7 @@ using libgeotiff_jll
 using libpng_jll
 using libwebp_jll
 JLLWrappers.@generate_wrapper_header("GDAL")
-JLLWrappers.@declare_library_product(libgdal, "libgdal.so.35")
+JLLWrappers.@declare_library_product(libgdal, "libgdal.so.36")
 JLLWrappers.@declare_executable_product(gdal_contour_exe)
 JLLWrappers.@declare_executable_product(gdal_contour_path)
 JLLWrappers.@declare_executable_product(gdal_create_exe)
