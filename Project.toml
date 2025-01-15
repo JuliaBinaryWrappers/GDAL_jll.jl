@@ -1,6 +1,6 @@
 name = "GDAL_jll"
 uuid = "a7073274-a066-55f0-b90d-d619367d196c"
-version = "302.1000.0+0"
+version = "302.1000.100+0"
 
 [deps]
 libgeotiff_jll = "06c338fa-64ff-565b-ac2f-249532af990e"
@@ -40,7 +40,7 @@ libwebp_jll = "1.2.4"
 Libtiff_jll = "4.7"
 Lz4_jll = "1.9.3"
 HDF5_jll = "~1.14.3"
-JLLWrappers = "1.2.0"
+JLLWrappers = "1.7.0"
 OpenJpeg_jll = "2.5"
 PROJ_jll = "902.500"
 LERC_jll = "4"
