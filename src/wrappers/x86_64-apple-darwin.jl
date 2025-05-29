@@ -25,8 +25,9 @@ using Zstd_jll
 using libgeotiff_jll
 using libpng_jll
 using libwebp_jll
+using muparser_jll
 JLLWrappers.@generate_wrapper_header("GDAL")
-JLLWrappers.@declare_library_product(libgdal, "@rpath/libgdal.36.dylib")
+JLLWrappers.@declare_library_product(libgdal, "@rpath/libgdal.37.dylib")
 JLLWrappers.@declare_executable_product(gdal_contour_exe)
 JLLWrappers.@declare_executable_product(gdal_contour_path)
 JLLWrappers.@declare_executable_product(gdal_create_exe)
@@ -75,10 +76,10 @@ JLLWrappers.@declare_executable_product(ogrtindex_exe)
 JLLWrappers.@declare_executable_product(ogrtindex_path)
 JLLWrappers.@declare_executable_product(sozip_exe)
 function __init__()
-    JLLWrappers.@generate_init_header(Arrow_jll, Blosc_jll, Expat_jll, GEOS_jll, HDF4_jll, HDF5_jll, LERC_jll, LibCURL_jll, LibPQ_jll, Libtiff_jll, Lz4_jll, NetCDF_jll, OpenJpeg_jll, PCRE2_jll, PROJ_jll, Qhull_jll, SQLite_jll, XML2_jll, XZ_jll, Zlib_jll, Zstd_jll, libgeotiff_jll, libpng_jll, libwebp_jll)
+    JLLWrappers.@generate_init_header(Arrow_jll, Blosc_jll, Expat_jll, GEOS_jll, HDF4_jll, HDF5_jll, LERC_jll, LibCURL_jll, LibPQ_jll, Libtiff_jll, Lz4_jll, NetCDF_jll, OpenJpeg_jll, PCRE2_jll, PROJ_jll, Qhull_jll, SQLite_jll, XML2_jll, XZ_jll, Zlib_jll, Zstd_jll, libgeotiff_jll, libpng_jll, libwebp_jll, muparser_jll)
     JLLWrappers.@init_library_product(
         libgdal,
-        "lib/libgdal.36.dylib",
+        "lib/libgdal.37.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
