@@ -1,6 +1,6 @@
 name = "GDAL_jll"
 uuid = "a7073274-a066-55f0-b90d-d619367d196c"
-version = "303.1100.0+0"
+version = "303.1100.100+0"
 
 [deps]
 libgeotiff_jll = "06c338fa-64ff-565b-ac2f-249532af990e"
@@ -57,6 +57,7 @@ julia = "1.6"
 LibCURL_jll = "7.73,8"
 GEOS_jll = "3.13.1"
 libpng_jll = "1.6.47"
+PCRE2_jll = "10.42.0"
 Arrow_jll = "19.0.0"
 XZ_jll = "5.6.4"
 Expat_jll = "2.6.5"
