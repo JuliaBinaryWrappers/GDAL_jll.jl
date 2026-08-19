@@ -1,6 +1,6 @@
 name = "GDAL_jll"
 uuid = "a7073274-a066-55f0-b90d-d619367d196c"
-version = "305.1300.201+0"
+version = "305.1300.301+0"
 
 [deps]
 OpenMPI_jll = "fe0851c0-eecd-5654-98d4-656369965a5c"
